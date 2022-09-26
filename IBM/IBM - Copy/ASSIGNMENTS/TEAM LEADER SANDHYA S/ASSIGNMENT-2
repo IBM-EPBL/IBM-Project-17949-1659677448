@@ -2,12 +2,12 @@ import random
 import time
 while(1000>100):
     temp = random.randint(0,100)
-    rh = random.randint(0,100) 
+    humidity = random.randint(0,100) 
      
     print("temp in celsius :",temp,"°c")
-    print("relative humidity value  :",rh,"%")
+    print("relative humidity value  :",humidity,"%")
 
-    if(temp>30):
+    if(temp>24 & humidity<50):
      
-        print("Warning Temperature value is high!!!!")
+        print("alarm detected")
     time.sleep(2)
