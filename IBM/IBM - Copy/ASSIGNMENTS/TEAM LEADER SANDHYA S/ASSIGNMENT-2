@@ -1,0 +1,13 @@
+import random
+import time
+while(1000>100):
+    temp = random.randint(0,100)
+    rh = random.randint(0,100) 
+     
+    print("temp in celsius :",temp,"°c")
+    print("relative humidity value  :",rh,"%")
+
+    if(temp>30):
+     
+        print("Warning Temperature value is high!!!!")
+    time.sleep(2)
