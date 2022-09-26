@@ -1,14 +1,13 @@
 import random
 import time
-while(10):
-    temp = random.randint(0,200)
-    h = random.randint(0,100) 
-    d = (5*(temp-32)/9 )
-    print("temp in celsius :",d)
+while(1000>100):
+    temp = random.randint(0,100)
+    humidity = random.randint(0,100) 
+     
+    print("temp in celsius :",temp,"°c")
+    print("relative humidity value  :",humidity,"%")
+
+    if(temp>24 and humidity<50):
+     
+        print("alarm detected")
     time.sleep(2)
-    print("relative humidity value  :",h,"%")
-    time.sleep(2)
-    if(d>100):
-        print("Not allowed: WARNING!!!")
-    else:
-        print("u are allowed")
