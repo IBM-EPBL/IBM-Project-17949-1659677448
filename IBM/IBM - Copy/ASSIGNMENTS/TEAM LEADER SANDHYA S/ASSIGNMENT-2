@@ -7,7 +7,7 @@ while(1000>100):
     print("temp in celsius :",temp,"°c")
     print("relative humidity value  :",humidity,"%")
 
-    if(temp>24 & humidity<50):
+    if(temp>24 and humidity<50):
      
         print("alarm detected")
     time.sleep(2)
